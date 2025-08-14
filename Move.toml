@@ -1,0 +1,15 @@
+[package]
+name = "EnergyTrading"
+version = "1.0.0"
+authors = []
+
+[addresses]
+at="0x1f35f31c2e91a3c88252a4882cefb0732f7de5c7d84571d123d3867a08f3bb29"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
